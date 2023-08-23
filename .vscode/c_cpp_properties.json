@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "gcc_make",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/inc/**",
+                "c:\\msys64\\mingw64\\include\\**" 
+            ],
+            "defines": [
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "c:\\msys64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c11", 
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools", 
+            "compilerArgs": [ 
+                "-g",
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-pipe",
+                "-Wshadow",
+                "-Wpointer-arith",
+                "-Wbad-function-cast",
+                "-Wcast-align",
+                "-Wsign-compare",
+                "-Waggregate-return",
+                "-Wstrict-prototypes",
+                "-Wmissing-prototypes",
+                "-Wmissing-declarations",
+                "-Wunused"
+            ]
+        }
+    ],
+    "version": 4
+}
